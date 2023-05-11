@@ -1,0 +1,74 @@
+// kendo-angular-indicators
+.wrap {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.wrap > kendo-badge-container {
+    margin: 10px;
+}
+
+// kendo-formfield
+.example-wrap {
+    display: flex;
+    justify-content: center;
+}
+.k-form {
+    width: 400px;
+}
+
+.margin-8 {
+    margin: 8px;
+}
+
+// kendo-label w/ kendo-form
+.example-kendo-lbl {
+    display: flex;
+    justify-content: center;
+  }
+
+  .k-form-kendo-lbl kendo-label:not(:last-of-type) {
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+
+
+// kendo-avatar
+.contact-kendo-avatar {
+    padding: 8px 14px;
+    margin-bottom: 4px;
+    box-shadow: 0 1px 2px #ccc;
+  }
+  .contact-kendo-avatar h2 {
+    font-size: 1.3em;
+    font-weight: normal;
+    margin: 0;
+  }
+  .contact-kendo-avatar p {
+    margin: 0;
+    font-size: 0.8em;
+  }
+  .k-hstack-kendo-avatar div {
+    margin-left: 1em;
+  }
+  .mate-info-kendo-avatar {
+    display: inline-block;
+    vertical-align: top;
+  }
+  .list-kendo-avatar {
+    width: 280px;
+    margin: auto;
+    padding: 4px 10px;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.26),
+      0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.08);
+  }
+  .contact-list-kendo-avatar {
+    text-align: center;
+    padding: 4px;
+    font-size: 20px;
+  }
+
+  kendo-tilelayout-item {
+
+  }

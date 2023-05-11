@@ -40,3 +40,8 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+/tb-kendo-bootstrap-theme/node_modules
+/tb-kendo-default-theme/node_modules
+/tb-kendo-fluent-theme/node_modules
+/tb-kendo-material-theme/node_modules
